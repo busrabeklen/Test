@@ -10,6 +10,7 @@ driver.maximize_window()
 print(driver.title)
 print(driver.current_url) #print just see in the output
 
+print("try1234")
 
 
 

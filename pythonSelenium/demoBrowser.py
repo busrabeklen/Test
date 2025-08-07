@@ -3,9 +3,11 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver= webdriver.Chrome()
-
+driver= webdriver.Chrome() #chrome driver version has to be same with chrome
 driver.get("https://rahulshettyacademy.com/angularpractice/")
+
+
+
 driver.maximize_window()
 print(driver.title)
 print(driver.current_url) #print just see in the output
